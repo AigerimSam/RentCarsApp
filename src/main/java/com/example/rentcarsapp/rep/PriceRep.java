@@ -1,4 +1,9 @@
 package com.example.rentcarsapp.rep;
 
-public interface PriceRep {
+import com.example.rentcarsapp.model.Price;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PriceRep extends JpaRepository<Price, Long> {
 }
