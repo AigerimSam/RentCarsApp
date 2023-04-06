@@ -20,5 +20,5 @@ public class Price {
     private Long id;
     private Double price;
     private LocalDate startDate;
-    private LocalDate endDate;
+    private   LocalDate endDate;
 }
